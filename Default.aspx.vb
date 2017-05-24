@@ -9,10 +9,5 @@ Partial Class _Default
 
     kjghjghjfghj
 
-
-
-
-    asdsadsad
-
 End Class
 mkjhkjj
