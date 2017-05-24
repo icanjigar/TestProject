@@ -1,0 +1,910 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="res_Appointment_statistics" xml:space="preserve">
+    <value>Appointment statistics</value>
+  </data>
+  <data name="res_Attribute" xml:space="preserve">
+    <value>Attribute</value>
+  </data>
+  <data name="res_AttributeRelation" xml:space="preserve">
+    <value>Attribute Relation</value>
+  </data>
+  <data name="res_AttributeSet" xml:space="preserve">
+    <value>Attribute Set</value>
+  </data>
+  <data name="res_AttributeSetting" xml:space="preserve">
+    <value>Attribute Setting</value>
+  </data>
+  <data name="res_AttributeValue" xml:space="preserve">
+    <value>Attribute Value</value>
+  </data>
+  <data name="res_Average_Revenue" xml:space="preserve">
+    <value>Average Revenue</value>
+  </data>
+  <data name="res_Daily_Appointments" xml:space="preserve">
+    <value>Daily Appointments</value>
+  </data>
+  <data name="res_Daily_Invoice" xml:space="preserve">
+    <value>Daily Invoice</value>
+  </data>
+  <data name="res_Daily_orders" xml:space="preserve">
+    <value>Daily orders</value>
+  </data>
+  <data name="res_Daily_Quotation" xml:space="preserve">
+    <value>Daily Quotation</value>
+  </data>
+  <data name="res_Dashboard_Title" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="res_Invoice_statistics" xml:space="preserve">
+    <value>res_Invoice_statistics</value>
+  </data>
+  <data name="res_Monthly_Appointments" xml:space="preserve">
+    <value>Monthly Appointments</value>
+  </data>
+  <data name="res_Monthly_Invoice" xml:space="preserve">
+    <value>Monthly Invoice</value>
+  </data>
+  <data name="res_Monthly_orders" xml:space="preserve">
+    <value>Monthly orders</value>
+  </data>
+  <data name="res_Monthly_Quotation" xml:space="preserve">
+    <value>Monthly Quotation</value>
+  </data>
+  <data name="res_Order_statistics" xml:space="preserve">
+    <value>Order statistics</value>
+  </data>
+  <data name="res_Quotation_statistics" xml:space="preserve">
+    <value>Quotation statistics</value>
+  </data>
+  <data name="res_Today_s_Order" xml:space="preserve">
+    <value>Today's Order</value>
+  </data>
+  <data name="res_Weekly_Appointments" xml:space="preserve">
+    <value>Weekly Appointments</value>
+  </data>
+  <data name="res_Weekly_Invoice" xml:space="preserve">
+    <value>Weekly Invoice</value>
+  </data>
+  <data name="res_Weekly_orders" xml:space="preserve">
+    <value>Weekly orders</value>
+  </data>
+  <data name="res_Weekly_Quotation" xml:space="preserve">
+    <value>Weekly Quotation</value>
+  </data>
+  <data name="res_Yearly_Appointments" xml:space="preserve">
+    <value>Yearly Appointments</value>
+  </data>
+  <data name="res_Yearly_Invoice" xml:space="preserve">
+    <value>Yearly Invoice</value>
+  </data>
+  <data name="res_Yearly_orders" xml:space="preserve">
+    <value>Yearly orders</value>
+  </data>
+  <data name="res_Yearly_Quotation" xml:space="preserve">
+    <value>Yearly Quotation</value>
+  </data>
+  <data name="res_AddAnother" xml:space="preserve">
+    <value>Add Another</value>
+  </data>
+  <data name="res_btn_Approve" xml:space="preserve">
+    <value>Approve</value>
+  </data>
+  <data name="res_ddl_Amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="res_ddl_Percentage" xml:space="preserve">
+    <value>Percentage</value>
+  </data>
+  <data name="res_err_msg_Alert" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="res_err_msg_Approved_Leave" xml:space="preserve">
+    <value>Approved Leave</value>
+  </data>
+  <data name="res_err_msg_FromDateTodate_less" xml:space="preserve">
+    <value>Please select fromdate less than to toDate</value>
+  </data>
+  <data name="res_err_msg_No_Any_Approved_Leave" xml:space="preserve">
+    <value>No Any Approved Leave</value>
+  </data>
+  <data name="res_err_msg_Please_select_employee_or_month" xml:space="preserve">
+    <value>Please select employee or month</value>
+  </data>
+  <data name="res_err_msg_Reason" xml:space="preserve">
+    <value>Please enter reason</value>
+  </data>
+  <data name="res_err_msg_Rejected_Leave_Approved" xml:space="preserve">
+    <value>Rejected Leave Approved</value>
+  </data>
+  <data name="res_err_msg_Remove_Employee" xml:space="preserve">
+    <value>Remove Employee</value>
+  </data>
+  <data name="res_err_msg_SelectDate" xml:space="preserve">
+    <value>Please select date</value>
+  </data>
+  <data name="res_lblDate_Of_Birth" xml:space="preserve">
+    <value>Date Of Birth :</value>
+  </data>
+  <data name="res_lbl_Accountdescription" xml:space="preserve">
+    <value>Account description:</value>
+  </data>
+  <data name="res_lbl_Additionalrates" xml:space="preserve">
+    <value>Additional rates</value>
+  </data>
+  <data name="res_lbl_AdditionsDeductions" xml:space="preserve">
+    <value>Additions/Deductions</value>
+  </data>
+  <data name="res_lbl_Address" xml:space="preserve">
+    <value>Address :</value>
+  </data>
+  <data name="res_lbl_Add_Employee" xml:space="preserve">
+    <value>Add Employee</value>
+  </data>
+  <data name="res_lbl_Allowances" xml:space="preserve">
+    <value>Allowances</value>
+  </data>
+  <data name="res_lbl_Allowancesarepayments" xml:space="preserve">
+    <value>Allowances are payments you make to employees on top of their pay.</value>
+  </data>
+  <data name="res_lbl_Allowances_travel_tools" xml:space="preserve">
+    <value>Allowances (eg. for travel, tools, cleaning)</value>
+  </data>
+  <data name="res_lbl_annualsalary" xml:space="preserve">
+    <value>annual salary</value>
+  </data>
+  <data name="res_lbl_Approved_By" xml:space="preserve">
+    <value>Approved By</value>
+  </data>
+  <data name="res_lbl_Approved_Leave_Reject" xml:space="preserve">
+    <value>Approved Leave Reject</value>
+  </data>
+  <data name="res_lbl_Are_You_Sure_Reject" xml:space="preserve">
+    <value>Are you sure you want to Reject Leave?</value>
+  </data>
+  <data name="res_lbl_Averagehoursweekthattheywillwork" xml:space="preserve">
+    <value>Average hours/week that they will work</value>
+  </data>
+  <data name="res_lbl_Bankdetails" xml:space="preserve">
+    <value>Bank details</value>
+  </data>
+  <data name="res_lbl_BankName" xml:space="preserve">
+    <value>Bank Name :</value>
+  </data>
+  <data name="res_lbl_BankofNewYork" xml:space="preserve">
+    <value>Bank of New York</value>
+  </data>
+  <data name="res_lbl_Bonus" xml:space="preserve">
+    <value>Bonus</value>
+  </data>
+  <data name="res_lbl_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="res_lbl_Casual" xml:space="preserve">
+    <value>Casual</value>
+  </data>
+  <data name="res_lbl_centsintheofgrossincome" xml:space="preserve">
+    <value>cents in the $ of gross income</value>
+  </data>
+  <data name="res_lbl_centsintheofschedularpayments" xml:space="preserve">
+    <value>cents in the $ of schedular payments</value>
+  </data>
+  <data name="res_lbl_City" xml:space="preserve">
+    <value>City :</value>
+  </data>
+  <data name="res_lbl_Commission" xml:space="preserve">
+    <value>Commission</value>
+  </data>
+  <data name="res_lbl_Contactdetails" xml:space="preserve">
+    <value>Contact details</value>
+  </data>
+  <data name="res_lbl_Declaration" xml:space="preserve">
+    <value>Declaration</value>
+  </data>
+  <data name="res_lbl_Deductions" xml:space="preserve">
+    <value>Deductions</value>
+  </data>
+  <data name="res_lbl_Deductionsarepaymentsyoutake" xml:space="preserve">
+    <value>Deductions are payments you take out of an employee's pay.</value>
+  </data>
+  <data name="res_lbl_Defaultpay" xml:space="preserve">
+    <value>Default $/pay</value>
+  </data>
+  <data name="res_lbl_Defaultvalueusedinthepayrun" xml:space="preserve">
+    <value>Default value used in the pay run</value>
+  </data>
+  <data name="res_lbl_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="res_lbl_Department" xml:space="preserve">
+    <value>Department :</value>
+  </data>
+  <data name="res_lbl_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="res_lbl_Designation" xml:space="preserve">
+    <value>Designation :</value>
+  </data>
+  <data name="res_lbl_DocumentFile" xml:space="preserve">
+    <value>Document File</value>
+  </data>
+  <data name="res_lbl_Earnerlevymultiplygrossincomeby" xml:space="preserve">
+    <value>Earner levy - multiply gross income by:</value>
+  </data>
+  <data name="res_lbl_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="res_lbl_Email" xml:space="preserve">
+    <value>Email :</value>
+  </data>
+  <data name="res_lbl_Employeebankdetails" xml:space="preserve">
+    <value>Employee bank details</value>
+  </data>
+  <data name="res_lbl_Employeeisaprimaryorsecondaryschoolstudent" xml:space="preserve">
+    <value>Employee is a primary or secondary school student</value>
+  </data>
+  <data name="res_lbl_Employeeispaidan" xml:space="preserve">
+    <value>Employee is paid an:</value>
+  </data>
+  <data name="res_lbl_Employeeorschedularpayee" xml:space="preserve">
+    <value>Employee or schedular payee has given a special tax code or student loan repayment - IR23 Certificate</value>
+  </data>
+  <data name="res_lbl_Employee_Details" xml:space="preserve">
+    <value>Employee Details</value>
+  </data>
+  <data name="res_lbl_Employee_Leave_Report" xml:space="preserve">
+    <value>Employee Leave Report</value>
+  </data>
+  <data name="res_lbl_Employee_Name" xml:space="preserve">
+    <value>Employee Name</value>
+  </data>
+  <data name="res_lbl_Employee_not_available" xml:space="preserve">
+    <value>Employee not available</value>
+  </data>
+  <data name="res_lbl_Emp_Leave_Detail" xml:space="preserve">
+    <value>Employee Leave Detail</value>
+  </data>
+  <data name="res_lbl_Enter_Reason" xml:space="preserve">
+    <value>Enter Reason</value>
+  </data>
+  <data name="res_lbl_ExcludeCEC" xml:space="preserve">
+    <value>Exclude CEC</value>
+  </data>
+  <data name="res_lbl_ExcludingKiwiSaver" xml:space="preserve">
+    <value>Excluding KiwiSaver</value>
+  </data>
+  <data name="res_lbl_Files" xml:space="preserve">
+    <value>Files</value>
+  </data>
+  <data name="res_lbl_FixedTerm" xml:space="preserve">
+    <value>Fixed-Term</value>
+  </data>
+  <data name="res_lbl_From_Date" xml:space="preserve">
+    <value>From Date</value>
+  </data>
+  <data name="res_lbl_FullTime" xml:space="preserve">
+    <value>Full Time</value>
+  </data>
+  <data name="res_lbl_hourlyrate" xml:space="preserve">
+    <value>hourly rate</value>
+  </data>
+  <data name="res_lbl_HoursAndDollers" xml:space="preserve">
+    <value>$/hr</value>
+  </data>
+  <data name="res_lbl_hoursperweek" xml:space="preserve">
+    <value>hours per week</value>
+  </data>
+  <data name="res_lbl_Ihavecheckedthattheseanswers" xml:space="preserve">
+    <value>I have checked that these answers match the information given to me by this employee.</value>
+  </data>
+  <data name="res_lbl_IRDnumber" xml:space="preserve">
+    <value>IRD number:</value>
+  </data>
+  <data name="res_lbl_IsApprove" xml:space="preserve">
+    <value>IsApprove</value>
+  </data>
+  <data name="res_lbl_Joining_Date" xml:space="preserve">
+    <value>Joining Date :</value>
+  </data>
+  <data name="res_lbl_KiWiSaver" xml:space="preserve">
+    <value>KiWiSaver</value>
+  </data>
+  <data name="res_lbl_Leave" xml:space="preserve">
+    <value>Leave</value>
+  </data>
+  <data name="res_lbl_Leave_Apply_Date" xml:space="preserve">
+    <value>Leave Apply Date</value>
+  </data>
+  <data name="res_lbl_Leave_Request" xml:space="preserve">
+    <value>Leave Request</value>
+  </data>
+  <data name="res_lbl_MobileNo" xml:space="preserve">
+    <value>Mobile No :</value>
+  </data>
+  <data name="res_lbl_model_leave_title" xml:space="preserve">
+    <value>How Days Leave Approve</value>
+  </data>
+  <data name="res_lbl_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="res_lbl_Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="res_lbl_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="res_lbl_Notes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="res_lbl_No_Any_Leave" xml:space="preserve">
+    <value>No Any Leave</value>
+  </data>
+  <data name="res_lbl_No_Any_Rejected_Leave" xml:space="preserve">
+    <value>No Any Rejected Leave</value>
+  </data>
+  <data name="res_lbl_Othertypesofpay" xml:space="preserve">
+    <value>Other types of pay</value>
+  </data>
+  <data name="res_lbl_PartTime" xml:space="preserve">
+    <value>Part Time</value>
+  </data>
+  <data name="res_lbl_Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="res_lbl_PAYEatthetaxrateof" xml:space="preserve">
+    <value>PAYE at the tax rate of:</value>
+  </data>
+  <data name="res_lbl_PAYErate" xml:space="preserve">
+    <value>PAYE rate</value>
+  </data>
+  <data name="res_lbl_PAYEundertaxcode" xml:space="preserve">
+    <value>PAYE under tax code:</value>
+  </data>
+  <data name="res_lbl_Payintooneaccount" xml:space="preserve">
+    <value>Pay into one account</value>
+  </data>
+  <data name="res_lbl_Pay_details" xml:space="preserve">
+    <value>Pay details</value>
+  </data>
+  <data name="res_lbl_Pay_history" xml:space="preserve">
+    <value>Pay history</value>
+  </data>
+  <data name="res_lbl_Personal" xml:space="preserve">
+    <value>Personal</value>
+  </data>
+  <data name="res_lbl_Photo" xml:space="preserve">
+    <value>Photo</value>
+  </data>
+  <data name="res_lbl_PleaseenterIRDnumber" xml:space="preserve">
+    <value>Please enter IRD number</value>
+  </data>
+  <data name="res_lbl_Que" xml:space="preserve">
+    <value>Que 1</value>
+  </data>
+  <data name="res_lbl_Que2" xml:space="preserve">
+    <value>Que 2</value>
+  </data>
+  <data name="res_lbl_Rate" xml:space="preserve">
+    <value>Rate $</value>
+  </data>
+  <data name="res_lbl_Reason" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="res_lbl_Reject" xml:space="preserve">
+    <value>Reject</value>
+  </data>
+  <data name="res_lbl_Rejected_By" xml:space="preserve">
+    <value>Rejected By</value>
+  </data>
+  <data name="res_lbl_Rejected_Leave" xml:space="preserve">
+    <value>Rejected Leave</value>
+  </data>
+  <data name="res_lbl_Remainingamount" xml:space="preserve">
+    <value>Remaining amount</value>
+  </data>
+  <data name="res_lbl_RememberEmailPassword" xml:space="preserve">
+    <value>Remember Email &amp; Password</value>
+  </data>
+  <data name="res_lbl_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="res_lbl_Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="res_lbl_SELECT" xml:space="preserve">
+    <value>SELECT</value>
+  </data>
+  <data name="res_lbl_Selectwhichadditionalpaytypesyouwant" xml:space="preserve">
+    <value>Select which additional pay types you want to make available for this employee. You can enter amounts for each when you process the employee's pay run.</value>
+  </data>
+  <data name="res_lbl_Select_Employee" xml:space="preserve">
+    <value>Select Employee</value>
+  </data>
+  <data name="res_lbl_ShowHelp" xml:space="preserve">
+    <value>Show Help</value>
+  </data>
+  <data name="res_lbl_Signature" xml:space="preserve">
+    <value>Signature</value>
+  </data>
+  <data name="res_lbl_Specialtaxcode" xml:space="preserve">
+    <value>Special tax code or student loan repayment form</value>
+  </data>
+  <data name="res_lbl_Splitby" xml:space="preserve">
+    <value>Split by:</value>
+  </data>
+  <data name="res_lbl_Splitpaybetweentwoaccounts" xml:space="preserve">
+    <value>Split pay between two accounts</value>
+  </data>
+  <data name="res_lbl_Status" xml:space="preserve">
+    <value>Status :</value>
+  </data>
+  <data name="res_lbl_Studentloanrepayments" xml:space="preserve">
+    <value>Student loan repayments at the rate of:</value>
+  </data>
+  <data name="res_lbl_Tax" xml:space="preserve">
+    <value>Tax</value>
+  </data>
+  <data name="res_lbl_Taxable" xml:space="preserve">
+    <value>Taxable?</value>
+  </data>
+  <data name="res_lbl_Taxattherateof" xml:space="preserve">
+    <value>Tax at the rate of:</value>
+  </data>
+  <data name="res_lbl_Taxcode" xml:space="preserve">
+    <value>Tax code:</value>
+  </data>
+  <data name="res_lbl_Taxcodedeclaration" xml:space="preserve">
+    <value>Tax code declaration</value>
+  </data>
+  <data name="res_lbl_Taxrateof" xml:space="preserve">
+    <value>Tax rate of</value>
+  </data>
+  <data name="res_lbl_Titleofdocument" xml:space="preserve">
+    <value>Title of document</value>
+  </data>
+  <data name="res_lbl_To_Date" xml:space="preserve">
+    <value>To Date</value>
+  </data>
+  <data name="res_lbl_Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="res_lbl_UpperLevel" xml:space="preserve">
+    <value>Upper Level :</value>
+  </data>
+  <data name="res_lbl_Valuemustbe100orless" xml:space="preserve">
+    <value>Value must be 100.00 or less.</value>
+  </data>
+  <data name="res_lbl_Valuemustbelessthan" xml:space="preserve">
+    <value>Value must be less than 1</value>
+  </data>
+  <data name="res_lbl_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="res_lbl_Youcanchangethedefault" xml:space="preserve">
+    <value>You can change the default $/pay when doing the pay run.</value>
+  </data>
+  <data name="res_lbl_YoucanchangetheRate" xml:space="preserve">
+    <value>You can change the Rate $ when doing the pay run.</value>
+  </data>
+  <data name="res_msg_InvalidEmailFormat" xml:space="preserve">
+    <value>Invalid Email Format</value>
+  </data>
+  <data name="res_msg_PleaseSelectTaxCode" xml:space="preserve">
+    <value>Please Select Tax Code</value>
+  </data>
+  <data name="res_msg_SelectDepartment" xml:space="preserve">
+    <value>Select Department</value>
+  </data>
+  <data name="res_msg_SelectDesignation" xml:space="preserve">
+    <value>Select Designation</value>
+  </data>
+  <data name="res_msg_Thisfieldisrequired" xml:space="preserve">
+    <value>This field is required.</value>
+  </data>
+  <data name="res_msg_Valuemustbe1000orless" xml:space="preserve">
+    <value>Value must be 1,000.00 or less</value>
+  </data>
+  <data name="res_msg_Valuemustbe168" xml:space="preserve">
+    <value>Value must be 168.00 or less.</value>
+  </data>
+  <data name="res_plc_9558824063" xml:space="preserve">
+    <value>9558824063</value>
+  </data>
+  <data name="res_plc_Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="res_plc_CityName" xml:space="preserve">
+    <value>City Name</value>
+  </data>
+  <data name="res_plc_Date_of_joining" xml:space="preserve">
+    <value>Date of joining</value>
+  </data>
+  <data name="res_plc_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="res_plc_Eric" xml:space="preserve">
+    <value>Eric</value>
+  </data>
+  <data name="res_plc_Passwordofemailforreadingemail" xml:space="preserve">
+    <value>Password of email for reading email</value>
+  </data>
+  <data name="res_plc_StaticBirth_Example" xml:space="preserve">
+    <value>20/Nov/1989</value>
+  </data>
+  <data name="res_plc_StudentRepayment" xml:space="preserve">
+    <value>Student Repayment</value>
+  </data>
+  <data name="res_plv_AccountNoOne" xml:space="preserve">
+    <value>12354952387</value>
+  </data>
+  <data name="res_ttm_Employee" xml:space="preserve">
+    <value>Employee</value>
+  </data>
+  <data name="res_ttm_Leave_Approve" xml:space="preserve">
+    <value>Approve Leave</value>
+  </data>
+  <data name="res_ttm_Leave_Report" xml:space="preserve">
+    <value>Leave Report</value>
+  </data>
+  <data name="res_ddl_Activemember" xml:space="preserve">
+    <value>Active member</value>
+  </data>
+  <data name="res_ddl_ExemptfromKiwiSaver" xml:space="preserve">
+    <value>Exempt from KiwiSaver</value>
+  </data>
+  <data name="res_ddl_Oncontributionholiday" xml:space="preserve">
+    <value>On contribution holiday</value>
+  </data>
+  <data name="res_ddl_OptedoutofKiwiSaver" xml:space="preserve">
+    <value>Opted out of KiwiSaver</value>
+  </data>
+  <data name="res_lbl_Alternativeholidays" xml:space="preserve">
+    <value>Alternative holidays</value>
+  </data>
+  <data name="res_lbl_Alternativeholidays_New" xml:space="preserve">
+    <value>Alternative holidays</value>
+  </data>
+  <data name="res_lbl_AlternativeHour" xml:space="preserve">
+    <value>Alternative Hour</value>
+  </data>
+  <data name="res_lbl_Amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="res_lbl_Anniversarydate" xml:space="preserve">
+    <value>Anniversary date:</value>
+  </data>
+  <data name="res_lbl_Annualentitlement" xml:space="preserve">
+    <value>Annual entitlement:</value>
+  </data>
+  <data name="res_lbl_Annualleave" xml:space="preserve">
+    <value>Annual leave</value>
+  </data>
+  <data name="res_lbl_Annualleavedue" xml:space="preserve">
+    <value>Annual leave due</value>
+  </data>
+  <data name="res_lbl_butdonthaveto" xml:space="preserve">
+    <value>but don't have to</value>
+  </data>
+  <data name="res_lbl_Childsupport" xml:space="preserve">
+    <value>Child support</value>
+  </data>
+  <data name="res_lbl_Contributionrate" xml:space="preserve">
+    <value>Contribution rate:</value>
+  </data>
+  <data name="res_lbl_Currentbalanceaccruing" xml:space="preserve">
+    <value>Current balance accruing:</value>
+  </data>
+  <data name="res_lbl_Currentbalanceavailable" xml:space="preserve">
+    <value>Current balance available:</value>
+  </data>
+  <data name="res_lbl_Currentbalances" xml:space="preserve">
+    <value>Current balances</value>
+  </data>
+  <data name="res_lbl_days" xml:space="preserve">
+    <value>days</value>
+  </data>
+  <data name="res_lbl_Deductionsunionfees" xml:space="preserve">
+    <value>Deductions (eg. union fees)</value>
+  </data>
+  <data name="res_lbl_Employee" xml:space="preserve">
+    <value>Employee</value>
+  </data>
+  <data name="res_lbl_Employeeannualsalary" xml:space="preserve">
+    <value>Employee annual salary:</value>
+  </data>
+  <data name="res_lbl_EmployerEmployerSuperannuationContributionTaxESCT" xml:space="preserve">
+    <value>Employer &amp; Employer Superannuation Contribution Tax (ESCT)</value>
+  </data>
+  <data name="res_lbl_Employersuperannuationcontributiontax" xml:space="preserve">
+    <value>Employer superannuation contribution tax</value>
+  </data>
+  <data name="res_lbl_Holidaypay" xml:space="preserve">
+    <value>Holiday pay 8%</value>
+  </data>
+  <data name="res_lbl_Hour" xml:space="preserve">
+    <value>Hour</value>
+  </data>
+  <data name="res_lbl_hr" xml:space="preserve">
+    <value>hr</value>
+  </data>
+  <data name="res_lbl_hrs" xml:space="preserve">
+    <value>hrs</value>
+  </data>
+  <data name="res_lbl_hrs_year" xml:space="preserve">
+    <value>hrs/year (fixed)</value>
+  </data>
+  <data name="res_lbl_KiwiSaverstatus" xml:space="preserve">
+    <value>KiwiSaver status:</value>
+  </data>
+  <data name="res_lbl_LeaveenteredintoMYOBEssentialsbefore" xml:space="preserve">
+    <value>Leave entered into MYOB Essentials before the introduction of leave accruals (25/09/2012) is not included in this calculation.</value>
+  </data>
+  <data name="res_lbl_Leaveliability" xml:space="preserve">
+    <value>Leave liability</value>
+  </data>
+  <data name="res_lbl_Maximumaccrualis" xml:space="preserve">
+    <value>Maximum accrual is:</value>
+  </data>
+  <data name="res_lbl_mmdd" xml:space="preserve">
+    <value>mm/dd</value>
+  </data>
+  <data name="res_lbl_Moreoncontributionholidaysandhowtohandlethem" xml:space="preserve">
+    <value>More on contribution holidays and how to handle them</value>
+  </data>
+  <data name="res_lbl_MoreonoptinginandoutofKiwisaver" xml:space="preserve">
+    <value>More on opting in and out of Kiwisaver</value>
+  </data>
+  <data name="res_lbl_Newemployeesshouldbeautomatically" xml:space="preserve">
+    <value>New employees should be automatically enrolled in KiwiSaver</value>
+  </data>
+  <data name="res_lbl_Openingbalance" xml:space="preserve">
+    <value>Opening balance:</value>
+  </data>
+  <data name="res_lbl_pay" xml:space="preserve">
+    <value>$/pay</value>
+  </data>
+  <data name="res_lbl_Rate_New" xml:space="preserve">
+    <value>Rate</value>
+  </data>
+  <data name="res_lbl_seeexceptions" xml:space="preserve">
+    <value>see exceptions</value>
+  </data>
+  <data name="res_lbl_Sickleave" xml:space="preserve">
+    <value>Sick leave</value>
+  </data>
+  <data name="res_lbl_TheCurrentbalanceaccruingshowshow" xml:space="preserve">
+    <value>The Current balance accruing shows how much leave the employee has accrued since their last anniversary date. This is based on their annual entitlement and will become available for them to take on their next anniversary date.</value>
+  </data>
+  <data name="res_lbl_TheCurrentbalanceavailable" xml:space="preserve">
+    <value>The Current balance available shows how much leave is currently available for the employee to take. This is their available opening balance, plus any accrued leave that has become available, minus leave taken.</value>
+  </data>
+  <data name="res_lbl_Thisfieldisrequired" xml:space="preserve">
+    <value>This field is required</value>
+  </data>
+  <data name="res_lbl_Thisisthesumoftheopening" xml:space="preserve">
+    <value>This is the sum of the opening balance and hours accrued, minus the amount of sick leave taken. Leave entered into MYOB Essentials before the introduction of leave accruals (25/09/2012) is not included in this calculation.You can choose whether to show or hide the available sick leave balance on your employees' payslips by selecting an option on the Payroll settings page.</value>
+  </data>
+  <data name="res_lbl_Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="res_lbl_Usethisspacetokeeptrackof" xml:space="preserve">
+    <value>Use this space to keep track of any extra information about the employee. For example, leave dates, emergency contact details or skills and qualifications.</value>
+  </data>
+  <data name="res_lbl_weeks" xml:space="preserve">
+    <value>weeks (pro-rata)</value>
+  </data>
+  <data name="res_lbl_Whenanemployeesoncontributionholidayemployerscan" xml:space="preserve">
+    <value>When an employee's on contribution holiday, employers can</value>
+  </data>
+  <data name="res_lbl_Whenyoustartusingleaveaccruals" xml:space="preserve">
+    <value>When you start using leave accruals, use this field to record the employee's current annual leave available amount.</value>
+  </data>
+  <data name="res_lbl_WhenyoustartusingMYOBEssentialsforleavemanagement" xml:space="preserve">
+    <value>When you start using MYOB Essentials for leave management, use this field to record the amount of alternative holidays currently due.</value>
+  </data>
+  <data name="res_lbl_Youcanchangethedefaultamountduringthepayrun" xml:space="preserve">
+    <value>You can change the default amount during the pay run.</value>
+  </data>
+  <data name="res_lbl_Youneedtoselectapaytype" xml:space="preserve">
+    <value>You need to select a pay type or add an allowance or deduction here before it will be available on the employee's pay run. When you process the pay run, you'll be able to enter the number of hours or the amount.
+If you need more information, click the 'show help' links next to each section, or ask your accountant.</value>
+  </data>
+  <data name="res_msg_Alert" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="res_msg_Datamissing" xml:space="preserve">
+    <value>Data missing</value>
+  </data>
+  <data name="res_msg_Employeedatasavedsuccessfully" xml:space="preserve">
+    <value>Employee data saved successfully</value>
+  </data>
+  <data name="res_msg_Employeedataupdatedsuccessfully" xml:space="preserve">
+    <value>Employee data updated successfully</value>
+  </data>
+  <data name="res_msg_KiwiSaver" xml:space="preserve">
+    <value>KiwiSaver</value>
+  </data>
+  <data name="res_msg_Pleaseconfirmdeclaration" xml:space="preserve">
+    <value>Please confirm declaration</value>
+  </data>
+  <data name="res_msg_Pleaseentercontributionrateforemployer" xml:space="preserve">
+    <value>Please enter contribution rate for employer</value>
+  </data>
+  <data name="res_msg_Pleaseenterdateofbirth" xml:space="preserve">
+    <value>Please enter date of birth</value>
+  </data>
+  <data name="res_msg_Pleaseenterdifferentemailid" xml:space="preserve">
+    <value>Please enter different email id</value>
+  </data>
+  <data name="res_msg_Pleaseenterhourlyrate" xml:space="preserve">
+    <value>Please enter hourly rate</value>
+  </data>
+  <data name="res_msg_Pleaseenterhoursperweek" xml:space="preserve">
+    <value>Please enter hours per week</value>
+  </data>
+  <data name="res_msg_Pleaseenterjoiningdate" xml:space="preserve">
+    <value>Please enter joining date</value>
+  </data>
+  <data name="res_msg_Pleaseentermailid" xml:space="preserve">
+    <value>Please enter mail id</value>
+  </data>
+  <data name="res_msg_Pleaseentermobileno" xml:space="preserve">
+    <value>Please enter mobile no</value>
+  </data>
+  <data name="res_msg_Pleaseentername" xml:space="preserve">
+    <value>Please enter name</value>
+  </data>
+  <data name="res_msg_Pleaseselectdepartment" xml:space="preserve">
+    <value>Please select department</value>
+  </data>
+  <data name="res_msg_Pleaseselectdesignation" xml:space="preserve">
+    <value>Please select designation</value>
+  </data>
+  <data name="res_msg_Pleaseselectemployeeannualsalary" xml:space="preserve">
+    <value>Please select employee annual salary</value>
+  </data>
+  <data name="res_msg_Pleaseselectjoiningdategreaterthantobirthdate" xml:space="preserve">
+    <value>Please select joining date greater than to birthdate</value>
+  </data>
+  <data name="res_msg_Pleaseselecttaxdeclaration" xml:space="preserve">
+    <value>Please select tax declaration</value>
+  </data>
+  <data name="res_msg_Pleaseselectvalidbirthdatelessthantodaydate" xml:space="preserve">
+    <value>Please select valid birthdate(less than today date)</value>
+  </data>
+  <data name="res_msg_Savedsuccessfully" xml:space="preserve">
+    <value>Saved successfully</value>
+  </data>
+  <data name="res_msg_Sorrypleasefillupfield" xml:space="preserve">
+    <value>Sorry please fill up field</value>
+  </data>
+  <data name="res_msg_Tax" xml:space="preserve">
+    <value>Tax</value>
+  </data>
+  <data name="res_msg_Updatedsuccessfully" xml:space="preserve">
+    <value>Updated successfully</value>
+  </data>
+  <data name="rse_lbl_WhenyoustartusingMYOBEssentials" xml:space="preserve">
+    <value>When you start using MYOB Essentials for leave management, use this field to record the employee's current sick leave entitlements.</value>
+  </data>
+  <data name="rs_lbl_makekiwisavercontributions" xml:space="preserve">
+    <value>make kiwisaver contributions</value>
+  </data>
+</root>
