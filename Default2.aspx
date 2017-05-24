@@ -1,4 +1,4 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Default.aspx.vb" Inherits="_Default" %>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Default2.aspx.vb" Inherits="Default2" %>
 
 <!DOCTYPE html>
 
@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    sdsdsd
+    
     </div>
     </form>
 </body>
